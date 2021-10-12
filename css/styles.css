@@ -557,10 +557,10 @@ body {
   flex-direction: row;
   }
   .footer-button {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   font-style: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -575,10 +575,10 @@ body {
   margin-right: 12px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
- border-radius: 4px;
- box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
- background-color: var(--secondary-darkgray-color);
- color: var(--primary-white-color);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--secondary-darkgray-color);
+  color: var(--primary-white-color);
   }
   .form-icon {
     margin-left: 10px;
@@ -591,7 +591,34 @@ body {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
   }
-
+  .form-header {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: var(--primary-text-color);
+    margin-bottom: 12px;
+  }
+  .footer-label {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: var(--secondary-text-color);
+  }
+.modal-form {
+  padding: 40px 39px 40px 41px;
+}
+.form-field {
+  display: flex;
+}
+.form-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  align-content: center;
+}
+.conditions {
+  color: var(--accent-color); 
+}
 /* ------PORTFOLIO----------*/
 .portfolio-header {
   background-color: var(--primary-white-color);
